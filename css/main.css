@@ -5,9 +5,48 @@ h1{
 }
 
 h2{
-
+  font-family: 'Hind', Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 
 h3{
-  
+
+}
+
+main{
+  width: 1024px;
+}
+
+.hidden {display: none;}
+
+.bannerHeader span {
+  font-family: 'Indie Flower', serif;
+  font-size: 3rem;
+}
+
+#intro{
+  margin-left: 125px;
+  margin-right: 125px;
+  text-align: center;
+}
+
+#intro2{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#active{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+#active-imgs{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#grassroots{
+   
 }
