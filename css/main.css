@@ -1,12 +1,20 @@
 body { font-family: 'Hind', Helvetica, Arial, sans-serif; }
 
+body{
+  width: 1024px;
+  font-size: 14pt;
+}
+
+main{
+}
+
 h1{
 
 }
 
 h2{
-  font-family: 'Hind', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Indie Flower", serif;
+  font-size: 35px;
 }
 
 h3{
@@ -19,34 +27,144 @@ main{
 
 .hidden {display: none;}
 
-.bannerHeader span {
-  font-family: 'Indie Flower', serif;
-  font-size: 3rem;
+.bannerHeader{
+  background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+  width: 1024px;
+  height: 243px;
 }
 
-#intro{
-  margin-left: 125px;
-  margin-right: 125px;
+.bannerHeader h2{
+  font-family: 'Hind', Helvetica, Arial, sans-serif;
+  font-weight: 300;
   text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  font-size: 150%;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.bannerHeader span {
+  font-family: 'Indie Flower', serif;
+  font-size: 4rem;
+}
+
+
+
+#intro{
+  height: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+  text-align: center;
+}
+
+#intro p{
+  font-size: 1.5rem;
+  padding-top: 102px;
+  font-weight: 300;
 }
 
 #intro2{
+  height: 300px;
   display: flex;
   flex-direction: row;
+  align-content:flex-end;
+
+  margin: 0 50px 0 50px;
+
   text-align: center;
+  align-items: stretch;
+}
+
+#intro2 div{
+  height: 178px;
+}
+
+#intro2 p{
+  width: 500px;
+  padding-top: 24px;
+}
+
+#intro2 span{
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 #active{
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align: center;
-}
-
-#active-imgs{
-  margin-left: 50px;
-  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 300px;
+  margin-top: 60px;
 }
 
 #grassroots{
-   
+  height: 450px;
+  margin: 100px 50px 0 50px;
+}
+
+#grassroots h2{
+  font-size: 25pt;
+  text-align: center;
+  font-family: 'Hind', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+#grassroots .content{
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  height: 350px;
+}
+
+#grassroots span{
+  font-family: "Indie Flower", serif;
+  font-size: 1.4rem;
+}
+
+.gr-imgs{
+  display: flex;
+  flex-direction: column;
+}
+
+#hands-on{
+  display: flex;
+  flex-direction: row;
+
+  height: 300px;
+  margin: 90px 100px 0 100px;
+}
+
+#hands-on div{
+  height: 183px;
+}
+
+#hands-on p{
+  padding: 30px 0 0 30px;
+  text-align: center;
+}
+
+#hands-on span{
+  font-family: "Indie Flower", serif;
+  font-size: 1.4rem;
+}
+
+#rainbow-trout{
+  text-align: center;
+  height: 450px;
+  margin: 0
+}
+
+#rainbow-trout h2{
+  margin: 0px 0 50px 0;
+}
+
+#rainbow-trout span{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+footer p{
+  font-size: 0.9rem;
 }
